@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>My Tasks</title>
 </head>
+<nav>
+    <a href="#tasks">Tasks</a>
+    <a href="#about">About</a>
+</nav>
+<div id="intro">
+    <!-- created for photo -->
+</div>
 <body>
+        
+        <!-- a button needs to be created with a check mark to remove the completed items (left side) -->
+        <!-- an x on the right side of the task -->
+    <form action="#">
+        <fieldset id="tasks">
+            <legend>To Do list</legend>
+            
+            <!-- insert a text box on the left side and a button on the right side -->
+            <!-- create a grid with 3 columns -->
+            <br>
+            <label for="empty-list">You do not have any tasks to complete! Enter a task.</label>
+            <div id="to-do">
+
+            </div>
+            <br>
+            <br>
+            <input type="text" name="empty-list" id="empty-list"><button id="button">Add Task</button>
+        </fieldset>
+    </form>
     
 </body>
+<footer>
+    <h1 id="about">About</h1>
+    This was created by <a target="_blank" href="https://github.com/charlenecodes">@charlenecodes</a>
+</footer>
+<script src="./script.js"></script>
 </html>

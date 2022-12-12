@@ -1,0 +1,108 @@
+* {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* it's good practice to use border-box box sizing so the width and the height you set will be the same as what you set */
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav {
+    background-color: #006f6d;
+}
+  
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: wheat;
+    font-size: 1.3em;
+}
+  
+a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+#intro {
+    height: 300px;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-photo/top-view-arrangement-natural-material-stationery_23-2148898233.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+body {
+    justify-content: center;
+    background-color: white;
+}
+
+.add-task {
+    margin-bottom: 70px;
+}
+
+
+fieldset {
+    font-weight: bold;
+    border: 3px solid #006f6d;
+    margin: 40px 20%;
+    background-color: #006f6d;
+}
+
+legend {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px;
+    border: 3px solid burlywood;
+}
+
+input#empty-list {
+    color: #006f6d;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: #006f6d;
+    color: white;
+    width: 85%;
+}
+
+#button {
+    border: 2px solid white;
+    background-color: white;
+    color: #006f6d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#button:hover {
+    background-color: #006f6d;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 50px;
+    background-color: #006f6d;
+    width: 100vw;
+    margin: 0;
+    padding: 28px;
+}
+
+/* create styles for the items on the to-do list that have been completed, to remove the initial message and remove tasks from the list */
+
+.hide {
+    display: none;
+}
+
+.removeItem {
+
+}
+
+.completedTask {
+    text-decoration: line-through;
+}
+
