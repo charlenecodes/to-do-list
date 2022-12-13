@@ -48,6 +48,7 @@ fieldset {
     border: 3px solid #006f6d;
     margin: 40px 20%;
     background-color: #006f6d;
+    border-radius: 15px;
 }
 
 legend {
@@ -57,9 +58,14 @@ legend {
     background-color: burlywood;
     padding: 10px;
     border: 3px solid burlywood;
+    border-radius: 5px;
 }
 
-input#empty-list {
+#empty-task {
+    font-weight: normal;
+}
+
+#input {
     color: #006f6d;
     font-size: 18px;
     font-weight: bold;
@@ -67,6 +73,8 @@ input#empty-list {
     background-color: #006f6d;
     color: white;
     width: 85%;
+    margin-bottom: 20px;
+    border-radius: 8px 0px 0px 8px; /* ORDER: top left, top right, bottom right, bottom left */
 }
 
 #button {
@@ -76,6 +84,7 @@ input#empty-list {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 #button:hover {
@@ -98,11 +107,9 @@ footer {
     display: none;
 }
 
-.removeItem {
-
-}
-
-.completedTask {
-    text-decoration: line-through;
+.li-style {
+    margin: 5px 2px;
+    font-weight: normal;
+    font-size: 20px;
 }
 
