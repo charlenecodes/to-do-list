@@ -38,6 +38,12 @@ body {
     background-color: white;
 }
 
+#instructions {
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
 .add-task {
     margin-bottom: 70px;
 }
