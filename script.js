@@ -3,7 +3,7 @@
 let input = document.querySelector("#input");
 let toDo = document.querySelector("#additional-tasks");
 let addButton = document.querySelector("#button");
-let empty = document.querySelector("#empty-list")
+let empty = document.querySelector("#empty-task")
 
 function addTask() { 
     let li = document.createElement("li");
