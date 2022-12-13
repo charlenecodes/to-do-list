@@ -5,7 +5,7 @@ let toDo = document.querySelector("#additional-tasks");
 let addButton = document.querySelector("#button");
 let empty = document.querySelector("#empty-list")
 
-function addTask(event) { 
+function addTask() { 
     let li = document.createElement("li");
     li.classList.add("li-style")
     li.innerText = input.value;
