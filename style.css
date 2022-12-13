@@ -6,22 +6,27 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.nav {
+nav {
     background-color: #006f6d;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 4px 0px;
 }
   
 a {
     text-decoration: none;
     font-weight: bold;
-    color: wheat;
+    color: honeydew;
     font-size: 1.3em;
 }
   
 a:hover {
     color: white;
+    background-color: #006f6d;
     text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 4px;
 }
 
 #intro {
@@ -58,12 +63,12 @@ fieldset {
 }
 
 legend {
-    color: white;
+    color: #006f6d;
     font-size: 30px;
     text-align: center;
-    background-color: burlywood;
+    background-color: honeydew;
     padding: 10px;
-    border: 3px solid burlywood;
+    border: 3px solid #006f6d;
     border-radius: 5px;
 }
 
@@ -72,21 +77,21 @@ legend {
 }
 
 #input {
-    color: #006f6d;
     font-size: 18px;
     font-weight: bold;
-    border: 2px solid white;
-    background-color: #006f6d;
-    color: white;
+    border: 2px solid peru;
+    border-right: 0px;
+    background-color: honeydew;
+    color: #006f6d;
     width: 85%;
     margin-bottom: 20px;
     border-radius: 8px 0px 0px 8px; /* ORDER: top left, top right, bottom right, bottom left */
 }
 
 #button {
-    border: 2px solid white;
     background-color: white;
-    color: #006f6d;
+    color: peru;
+    border: 2px solid peru;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -94,7 +99,8 @@ legend {
 }
 
 #button:hover {
-    background-color: #006f6d;
+    border: 2px solid white;
+    background-color: peru;
     color: white;
 }
 
