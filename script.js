@@ -4,7 +4,6 @@ let input = document.querySelector("#input");
 let toDo = document.querySelector("#additional-tasks");
 let addButton = document.querySelector("#button");
 let empty = document.querySelector("#empty-task")
-let li = document.createElement("li");
 
 function addTask() { 
     let li = document.createElement("li");
@@ -20,6 +19,5 @@ function addTask() {
     input.value = ""; /* clears the input field after pressing enter */
     empty.classList = "hide"
 }
-
 
 addButton.addEventListener("click", addTask)
